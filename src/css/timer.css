@@ -46,7 +46,7 @@
     text-transform: uppercase;
     border: 0;
     box-shadow: 12px 12px 1px 1px rgba(76, 86, 106, 0.2);
-    cursor: not-allowed;
+    
   }
   
   .btn:disabled {
@@ -54,6 +54,7 @@
     background: #d8dee9;
     color: #434c5e;
     box-shadow: none;
+    cursor: not-allowed;
   }
   
   input {

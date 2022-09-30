@@ -1,0 +1,26 @@
+.box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.btn {
+    border-radius: 80px;
+    margin: 0 20px;
+    width: 12em;
+    height: 90px;
+    background-color: rgba(33, 150, 243, 0.8);
+    color: #eceff4;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: 12px 12px 1px 1px rgba(76, 86, 106, 0.2);
+    cursor: pointer;
+
+    font-size: 20px;
+  }
+
+  .btn:disabled{
+    background-color: grey;
+    cursor:not-allowed;
+  }
