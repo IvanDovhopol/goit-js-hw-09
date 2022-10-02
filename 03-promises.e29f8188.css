@@ -1,0 +1,2 @@
+.form{flex-direction:column;gap:20px;display:flex}input{height:40px;width:300px;color:#000;border-radius:10px;padding-left:15px}input:hover{border-color:rgba(0,0,0,.7)}input:focus{background-color:rgba(33,150,243,.07);outline-color:rgba(33,150,243,.9)}label{color:#00f}button{width:11em;height:50px;color:#eceff4;text-transform:uppercase;cursor:pointer;background-color:rgba(0,0,0,.7);border:0;border-radius:10px;margin:0 20px}button:hover,button:focus{background-color:#000;transform:scale(.95)}
+/*# sourceMappingURL=03-promises.e29f8188.css.map */
