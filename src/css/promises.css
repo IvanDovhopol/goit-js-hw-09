@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    color: black;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+input:hover{
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+input:focus{
+    outline-color: rgba(33, 150, 243, 0.9);
+    background-color: rgba(33, 150, 243, 0.07);
+}
+
+label{
+    color: blue;
+}
+
+
+
+button {
+    border-radius: 10px;
+    margin: 0 20px;
+    width: 11em;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #eceff4;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+  }
+
+  button:hover, button:focus{
+    background-color: #000;
+    transform:scale(0.95);
+  }

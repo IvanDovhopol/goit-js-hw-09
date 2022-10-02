@@ -38,7 +38,6 @@ const timer = {
         return;
       }
       refs.btnStart.toggleAttribute('disabled');
-      refs.btnStart.style.cursor = 'pointer';
     },
   },
 
@@ -52,6 +51,7 @@ const timer = {
       refs.items.forEach(item => item.classList.toggle('end'));
       refs.btnStart.disabled = true;
       refs.input.disabled = true;
+
       this.intervalId = setInterval(() => {
         const choosenDate = new Date(refs.input.value);
         const timeToFinish = choosenDate - Date.now();
