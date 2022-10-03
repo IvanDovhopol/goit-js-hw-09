@@ -15,7 +15,7 @@ refs.startBtn.addEventListener('click', () => {
 });
 
 refs.stopBtn.addEventListener('click', () => {
-  intevalId = clearInterval(intevalId);
+  clearInterval(intevalId);
   stopTimer();
 });
 

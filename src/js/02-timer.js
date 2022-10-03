@@ -43,7 +43,7 @@ const timer = {
 
   start() {
     refs.btnStart.setAttribute('disabled', false);
-    const qwe = refs.btnStart.addEventListener('click', onBtnStartClick);
+    refs.btnStart.addEventListener('click', onBtnStartClick);
 
     flatpickr(refs.input, this.flatpickrOptions);
 
